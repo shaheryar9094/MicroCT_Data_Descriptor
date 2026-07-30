@@ -1,16 +1,7 @@
-# Mount Gambier Limestone Micro-CT — Analysis & Modelling Code
+# Micro-CT — Analysis & Modelling Code
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
-
-Supplementary code for the data paper:
-
-> **High-resolution micro-CT dataset of Mount Gambier limestone with three-phase reusable segmentation classifier, dual pore network model and finite-volume multiscale meshes**
-> Shaheryar T. Hussain, Klaus Regenauer-Lieb, Sheik S. Rahman — *under review*.
-
-This repository contains **only the code base**. The full micro-CT dataset (raw tomography, three-phase segmented volume, and derived products) is hosted on the [Digital Porous Media Portal](https://digitalporousmedia.org). DOI: *pending deposit*.
-
----
 
 ## Overview
 
@@ -71,8 +62,4 @@ network model and finite-volume multiscale meshes. (Manuscript under review.)
 
 ## License
 
-Released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), consistent with the headers in each script.
-
-## Contact
-
-Shaheryar T. Hussain — shaheryar.hussain@curtin.edu.au
+Released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
