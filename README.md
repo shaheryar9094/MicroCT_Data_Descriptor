@@ -22,7 +22,7 @@ The scripts cover the post-reconstruction workflow: converting reconstructed sli
 |------|-------------|
 | `NetCDF_to_Tif.py` | Converts a folder of reconstructed micro-CT `.nc` slices into a single multi-slice TIFF stack for downstream segmentation and processing. |
 | `Statistical_REV.py` | Estimates the statistical REV of the segmented 3-phase volume via centred-subvolume convergence and moving-window heterogeneity analysis. Outputs per-window CSVs, a summary report, and convergence / heterogeneity / boxplot figures. |
-| `DPNM_Stage1.py` | **Stage 1 — generation.** Extracts a geometry-only dual pore network (macro + micro + coupling throats) from the 3-phase image using PoreSpy's SNOW2 watershed and pickles it to disk. Computationally heavy (~2 h for the 1280³ sample); run once. |
+| `DPNM_Stage1.py` | **Stage 1 — generation.** Extracts a geometry-only dual pore network (macro + micro + coupling throats) from the 3-phase image using PoreSpy's SNOW2 watershed and pickles it to disk. Computationally heavy (~2 h for the 1280³ sample which required 168GB of RAM); run once. |
 | `DPNM_Stage2.py` | **Stage 2 — analysis & export.** Loads the saved network, computes single-phase absolute permeability (OpenPNM `StokesFlow`) and network statistics, and exports CSV, Statoil/ICL `.dat`, VTK (ParaView), and JSON metadata. Fast and re-runnable. |
 
 The dual pore network is split into two stages so the expensive extraction (Stage 1) runs once, while analysis and exports (Stage 2) can be re-run freely.
