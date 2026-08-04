@@ -80,11 +80,9 @@ def find_image_variable(ds):
     best_name = None
     best_size = 0
 
-    # Get coordinate/dimension variable names to exclude
     dim_names = set(ds.dimensions.keys())
 
     for name, var in ds.variables.items():
-        # Skip coordinate variables (1D arrays matching dimension names)
         if name in dim_names and var.ndim == 1:
             continue
         size = np.prod(var.shape)
