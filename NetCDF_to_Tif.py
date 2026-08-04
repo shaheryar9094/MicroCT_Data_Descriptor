@@ -21,7 +21,7 @@
 # Data availability:
 #   All data described in the associated manuscript are publicly available
 #   on the Digital Porous Media Portal (https://digitalporousmedia.org).
-#   The dataset DOI is: << INSERT RESOLVED DOI ONCE DEPOSIT IS LIVE >>
+#   The dataset DOI is: << DOI AVAILABLE ONCE DEPOSIT IS LIVE >>
 #
 #
 # Conditions of use:
